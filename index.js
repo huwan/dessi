@@ -6,7 +6,7 @@ const SSI_EXTENSIONS = [
     '.html',
     '.shtml',
 ];
-const SSI_REGEX = new RegExp(/(.*)<!--#include\s+virtual="([\d\w\.\/\$\-\_]+)"\s?-->(.*)/, 'sm');
+const SSI_REGEX = new RegExp(/(.*)<!--#include\s+file="([\d\w\.\/\$\-\_]+)"\s?-->(.*)/, 'sm');
 
 const log = (...args) => {
     console.log(...args);
