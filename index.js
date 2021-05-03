@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs-extra');
 
 const SSI_EXTENSIONS = [
+    '.htm',
     '.html',
     '.shtml',
 ];
